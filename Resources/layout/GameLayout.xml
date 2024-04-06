@@ -1,0 +1,175 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgameone"
+    >
+    <TextView
+        android:text="Your word is:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#ff1a237e" />
+    <TextView
+        android:text="Loading word..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/textViewLettersBank"
+        android:textColor="#ffffffff" />
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:inputType="text"
+            android:hint="1st word:"
+            android:layout_width="0dp"
+            android:layout_weight="65"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextRow1"
+            android:textStyle="italic|bold|normal" />
+        <Button
+            android:text="Check"
+            android:background="@drawable/buttonshape"
+            android:layout_width="0dp"
+            android:layout_weight="25"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonCheckRow1"
+            android:textColor="#ff15af15" />
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_gravity="right"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBoxRow1"
+            android:checked="false"
+            android:clickable="false" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:inputType="text"
+            android:hint="2nd word:"
+            android:layout_width="0dp"
+            android:layout_weight="65"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextRow2"
+            android:textStyle="bold|italic|normal" />
+        <Button
+            android:text="Check"
+            android:background="@drawable/buttonshape"
+            android:layout_width="0dp"
+            android:layout_weight="25"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonCheckRow2"
+            android:textColor="#ff15af15"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBoxRow2"
+            android:clickable="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:inputType="text"
+            android:hint="3rd word:"
+            android:layout_width="0dp"
+            android:layout_weight="65"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextRow3"
+            android:textStyle="normal|bold|italic" />
+        <Button
+            android:text="Check"
+            android:layout_width="0dp"
+            android:layout_weight="25"
+            android:background="@drawable/buttonshape"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonCheckRow3"
+            android:textColor="#ff15af15" />
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBoxRow3"
+            android:clickable="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:inputType="text"
+            android:hint="4th word:"
+            android:layout_width="0dp"
+            android:layout_weight="65"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextRow4"
+            android:textStyle="normal|bold|italic" />
+        <Button
+            android:text="Check"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonshape"
+            android:layout_weight="25"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonCheckRow4"
+            android:textColor="#ff15af15" />
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBoxRow4"
+            android:clickable="false"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_margin="4dp"
+        android:text="Your current points are:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPagePoints"
+        android:textStyle="normal|bold|italic" />
+    <TextView
+        android:layout_margin="2dp"
+        android:text="The sum of points:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTotalPoints"
+        android:textStyle="normal|bold|italic" />
+    <Button
+        android:text="Next"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/buttonshape"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNext"
+        android:textColor="#e50000" />
+
+</LinearLayout>

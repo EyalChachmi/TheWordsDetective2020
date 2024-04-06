@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybackgroundtwo"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:theme="@style/Base.Theme.AppCompat.Light"
+        android:layout_height="?android:attr/actionBarSize"/>
+    <TextView
+        android:text="The Words Detective"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#e50000" />
+    <Button
+        android:text="Login"
+        android:background="@drawable/buttonshape"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:textSize="14sp"
+        android:minHeight="15px"
+        android:gravity="center"
+        android:textColor="#131516"
+        
+        android:id="@+id/buttonLogin"
+        android:textStyle="normal|bold" />
+    <Button     
+        android:text="Sign Up"
+         android:background="@drawable/buttonshape"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:textSize="14sp"
+        android:minHeight="15px"
+        android:gravity="center"
+        android:id="@+id/buttonSign"
+        android:inputType="none|text"
+        android:textColor="#131516"
+        android:textStyle="normal|bold"/>
+    <Button
+        android:text="Play"
+         android:background="@drawable/buttonshape"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:textSize="14sp"
+        android:minHeight="15px"
+        android:gravity="center"
+        android:id="@+id/buttonPlay"
+        android:textColor="#131516"
+        android:textStyle="normal|bold"/>
+    <Button
+        android:background="@drawable/buttonshape"
+        android:text="Scores"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:textSize="14sp"
+        android:minHeight="15px"
+        android:gravity="center"
+        android:id="@+id/buttonScores"
+        android:textColor="#131516"
+        android:textStyle="normal|bold"/>
+    <Button
+        android:background="@drawable/buttonshape"
+        android:text="Add Words (Admin only)"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:textSize="14sp"
+        android:minHeight="15px"
+        android:gravity="center"
+        android:id="@+id/buttonAddWords"
+        android:textColor="#131516"
+        android:visibility="invisible"
+        android:textStyle="normal|bold"/>
+
+</LinearLayout>

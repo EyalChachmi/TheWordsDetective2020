@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Activities ">
+    <Position X="32.019" Y="3.028" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Adapters">
+    <Position X="30.187" Y="13.846" Height="0.439" Width="1.119" />
+  </Comment>
+  <Comment CommentText="Service and Broadcast">
+    <Position X="30.077" Y="18.878" Height="0.291" Width="1.438" />
+  </Comment>
+  <Comment CommentText="Classes">
+    <Position X="6.844" Y="0.594" Height="0.433" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Dialogs">
+    <Position X="7.444" Y="9.174" Height="0.481" Width="0.94" />
+  </Comment>
+  <Comment CommentText="Firebase Conntection Class">
+    <Position X="0.5" Y="4.143" Height="0.476" Width="1.737" />
+  </Comment>
+  <Class Name="Project_2020.ActivityShowRecords">
+    <Position X="26.75" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCQAAAAAAAAACIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActivityShowRecords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.AddWordsDialog">
+    <Position X="4.5" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAAAQAAAAgAAACAACAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>AddWordsDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.Admin">
+    <Position X="7.25" Y="6.5" Width="2.25" />
+    <InheritanceLine Type="Project_2020.User" FixedToPoint="true">
+      <Path>
+        <Point X="8.375" Y="5.488" />
+        <Point X="8.375" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.AppData">
+    <Position X="0.75" Y="4.75" Width="2" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="1.062" />
+        <Point X="5.5" Y="1.594" />
+        <Point X="2.375" Y="1.594" />
+        <Point X="2.375" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>AppData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.CheckReceiver">
+    <Position X="28.5" Y="21.5" Width="2.25" />
+    <InheritanceLine Type="Android.Content.BroadcastReceiver" FixedToPoint="true">
+      <Path>
+        <Point X="29.75" Y="20.691" />
+        <Point X="29.75" Y="21.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAQAAAAAAAAAAAAAAAAAAiIAAAAAAAAAAA=</HashCode>
+      <FileName>CheckReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.CheckService" BaseTypeListCollapsed="true">
+    <Position X="31" Y="21.5" Width="2.25" />
+    <InheritanceLine Type="Android.App.Service" FixedToPoint="true">
+      <Path>
+        <Point X="32" Y="20.691" />
+        <Point X="32" Y="21.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAgAAIAAAIAAAAAAEAAAACAAAAAIAAAAAAAIAAA=</HashCode>
+      <FileName>CheckService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.441" />
+  </Class>
+  <Class Name="Project_2020.Game">
+    <Position X="5.25" Y="3" Width="1.75" />
+    <InheritanceLine Type="System.Object" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="1.062" />
+        <Point X="5.5" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACQAAACCEAAAggAAABACAAIgCAEQEEAAACSABAAAAgA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.GameActivity">
+    <Position X="32.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QCwBgABAAAAAKUgAAAAAgAAAACAAAAEIEgBQgAAAAgA=</HashCode>
+      <FileName>GameActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.LoginDialog">
+    <Position X="7" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAQAACAAKCAEQAAEAAAAAAAAAgAAAAIA=</HashCode>
+      <FileName>LoginDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.MainActivity">
+    <Position X="23.5" Y="5.75" Width="3" />
+    <InheritanceLine Type="Android.Support.V7.App.AppCompatActivity" FixedToPoint="true">
+      <Path>
+        <Point X="25.375" Y="4.562" />
+        <Point X="25.375" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAQAAAASCBQgAmBAJABAWgCEAAigEAAAAgBAAIEI=</HashCode>
+      <FileName>MainActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.QuizDescripTionActivity">
+    <Position X="21" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAIAAAAgAAAAAIAKAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuizDescripTionActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.RecordsAdapter">
+    <Position X="30" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAACAAAAAQAAAIAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>RecordsAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.SignUpActivity">
+    <Position X="29.5" Y="6.75" Width="2.5" />
+    <InheritanceLine Type="Android.App.Activity" FixedToPoint="true">
+      <Path>
+        <Point X="30.25" Y="4.941" />
+        <Point X="30.25" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAIBAQAACAAAAAAEACAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>SignUpActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.User">
+    <Position X="7.5" Y="1.75" Width="1.75" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="5.5" Y="1.062" />
+        <Point X="5.5" Y="1.58" />
+        <Point X="8.375" Y="1.58" />
+        <Point X="8.375" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAYAAAAAiEQAAAAMIAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_2020.Word">
+    <Position X="3" Y="4.25" Width="2" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="5.5" Y="1.062" />
+        <Point X="5.5" Y="1.58" />
+        <Point X="4" Y="1.58" />
+        <Point X="4" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAACAAAAAEAEAAAAgAAAAIAAAAAEAAAA=</HashCode>
+      <FileName>Word.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Android.App.Activity" Collapsed="true">
+    <Position X="29.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Android.Support.V7.App.AppCompatActivity" Collapsed="true">
+    <Position X="24.5" Y="4" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Android.Widget.BaseAdapter&lt;T&gt;" Collapsed="true">
+    <Position X="30" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Android.App.Service" Collapsed="true">
+    <Position X="31.25" Y="20" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Android.Content.BroadcastReceiver" Collapsed="true">
+    <Position X="28.75" Y="20" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Android.App.Dialog" Collapsed="true">
+    <Position X="6" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Project_2020.ICorrectable">
+    <Position X="33" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ICorrectable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,37 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundgameone"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Sign up to be a detective now!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSignUp"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSignUpName"
+        android:hint="Enter your username" />
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSignUpPassword"
+        android:hint="Enter your password"
+        android:inputType="none|textPassword" />
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSignUpRePassword"
+        android:hint="Confirm your password please"
+        android:inputType="none|textPassword" />
+    <Button
+        android:text="Sign Up Now!"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignUp" />
+</LinearLayout>
